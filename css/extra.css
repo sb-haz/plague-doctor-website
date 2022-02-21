@@ -1,0 +1,128 @@
+/* centers team member name */
+#center-team-text{
+	text-align: right;
+}
+
+/* shadow for team member image */
+#team-image-shadow{
+	box-shadow: 5px 10px #888888;
+}
+
+/* index title shadow */
+#main-heading-shadow {
+  text-shadow: 0px 10px 8px #000;
+}
+
+#video-shadow{
+  box-shadow: 5px 5px 5px #ab0202;
+}
+
+/* button shadow */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: black;
+}
+
+/* scroll bar */
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-button{
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(black, red, black);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+/* social media sidebar */
+.icon-bar {
+  z-index: 100000;
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  box-shadow: -3px 2px 3px #000;
+  display: block;
+  text-align: center;
+/* size */
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: #000;
+  font-size: 17px;
+  z-index: 100000000;
+}
+
+.icon-bar a:hover {
+  background-color: #ffcccb;
+}
+
+.youtube {
+  background: #c4302b;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #cd486b;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+/* Team logo centering */
+#team-logo-div{
+  text-align:center;
+}
+
+#team-logo-img{
+  margin: auto;
+}
+
+/* Blog Download Button */
+#blog-download-button{
+  color: white !important;
+}
+
+/* Blog Author Hover */
+#blog-author-color:hover{
+  color: #b30e2c !important;
+}
+
+/* Download page button */
+#download-button{
+  padding-left: 12em;
+  padding-right: 12em;
+  background-color: #15e6c5;
+  overflow: hidden;
+  color: white !important;
+  box-shadow: 5px 5px 5px #ab0202;
+}
+
+/*SPP Text shadow*/
+#spp_shadow{
+  text-shadow: 0px 2px 2px #000;
+}
